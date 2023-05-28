@@ -287,3 +287,105 @@ Tudo isso é realizado com a filosofia subjacente de:
 \end{itemize}
 
 Quem está familiarizado com o Lean reconhecerá muitos desses princípios como a base de um sistema Lean "puxado" (pull) e para uma cultura de melhoria contínua (Kaizen). O Kanban, em primeiro lugar, atua como um catalisador para introduzir ideias Lean na entrega de sistemas de software. Essa perspectiva também é compartilhada por David Anderson em seu livro:
+
+\begin{citacao}
+	O Kanban (com K maiúsculo) é o método de mudança evolucionária que utiliza um sistema kanban (com k minúsculo), além da visualização e outras ferramentas, para catalisar a introdução das ideias Lean nas áreas de desenvolvimento e operações de TI.
+\end{citacao}
+
+O foco do Kanban é conduzir mudanças evolucionárias, e esses passos simples têm se mostrado extremamente úteis para alcançar esse objetivo. O sistema é chamado de "Sistema Puxado Kanban" (Kanban Pull System) devido à sua capacidade de visualizar o fluxo e estabelecer limites para o trabalho em andamento (WIP). Isso garante que nunca seja introduzido mais trabalho no sistema do que sua capacidade de processamento. Existem apenas permissões de trabalho limitadas ("kanbans") disponíveis, e é necessário concluir o trabalho existente antes de iniciar um novo trabalho. Isso resulta em funcionalidades sendo "puxadas" pelo sistema, com base em sua capacidade, em vez de serem "empurradas" com base em previsões ou demandas.
+
+Não há regras rígidas em relação à aparência específica do quadro do Kanban. As únicas limitações são a imaginação, a criatividade e as restrições impostas por um sistema eletrônico ou pelo espaço disponível na parede. Como este guia é destinado a iniciantes, usaremos exemplos simples de quadros para ilustrar os conceitos fundamentais.
+
+\section{Ferramentas de Apoio}
+Nessa subseção, são apresentadas as ferramentas de apoio utilizadas como suporte às metodologias ágeis de desenvolvimento e à gerência de projetos. Cada ferramenta possui funcionalidades específicas que podem servir como referência para a avaliação do sistema em questão.
+
+\subsection{Kanban}
+Conforme já abordado, o Kanban é tanto um método ágil quanto uma ferramenta que pode ser usada por outras metodologias. O Sistema Kanban é comumente utilizado em quadros e cartões visuais para auxiliar no planejamento da produção e no controle de estoques ou fluxos de produção. A quantidade de cartões disponíveis nos quadros determina as decisões de priorização de produção, configuração de máquinas e até mesmo paradas de linha para manutenção. Na Figura 2, é apresentado um exemplo ilustrativo:
+
+\begin{figure}[htb]
+	\caption{\label{fig:Fig_2}Exemplo de painel de acompanhamento de fluxo com Kanban.}
+	\begin{center}
+		\includegraphics{figuras/Imagem2.png}
+	\end{center}
+	\fonte{Kanban e Scrum - obtendo o melhor de ambos. 1ª edição (2009).}
+\end{figure}
+
+O Kanban não é só uma metodologia, mas também um framework para implementar mudanças de forma incremental. Ao contrário das metodologias tradicionais, o Kanban não possui práticas prescritas. Em vez disso, ele fornece propriedades que guiam a melhoria no processo atual, independentemente das práticas utilizadas.
+
+Na área de desenvolvimento de software, o Kanban é utilizado para complementar as metodologias ágeis mencionadas anteriormente. Ele permite tornar a equipe mais ágil, dinâmica e flexível, ao fornecer clareza sobre os envolvidos no processo e as fases do processo. Além disso, o Kanban facilita a colaboração e supervisão de todos os envolvidos.
+
+\subsection{OpenProj}
+O OpenProj é um software de código aberto utilizado para gerenciamento de projetos. Ele oferece uma alternativa gratuita aos softwares comerciais disponíveis no mercado. Com mais de um milhão de usuários, o OpenProj é amplamente reconhecido e está disponível para as plataformas Linux, Mac e Windows, em vários idiomas, incluindo o português.
+
+Uma das principais vantagens do OpenProj é sua interface de fácil utilização, que permite aos gerentes de projetos criar cronogramas, calcular datas, estabelecer cenários e visualizar redes PERT, entre outras funcionalidades.
+
+Segundo Taguchi (2012), uma das vantagens do OpenProj é a capacidade de gerar uma variedade de relatórios. Os gerentes de projeto estão sempre preocupados com a coordenação das atividades realizadas durante o projeto, e uma forma extremamente eficaz de acompanhar essas tarefas é por meio das diversas formas de visualização disponíveis. A Figura 3 e a Figura 4 apresentam exemplos dessas formas de exibição:
+
+\begin{figure}[htb]
+	\caption{\label{fig:Fig_4}Tela de exibição de Diagrama de Rede}
+	\begin{center}
+		\includegraphics[scale=0.3]{figuras/Imagem4.png}
+	\end{center}
+	\fonte{http://sourceforge.net/projects/openproj/}
+\end{figure}
+
+\subsection{Trello}
+
+O Trello é uma aplicação online que oferece recursos para o gerenciamento de projetos e tarefas. Uma de suas principais características são as colunas personalizáveis, que permitem adicionar novas atividades, projetos, inserir tags para pesquisas futuras, excluir ou adicionar tarefas e membros da equipe. Essa flexibilidade torna o Trello uma ferramenta versátil para o acompanhamento e organização de projetos.
+
+O Trello é uma aplicação online que possui uma interface agradável e facilita a visualização das tarefas. Ele utiliza o método Kanban, dividindo as tarefas em três colunas principais: Fazer, Fazendo e Feito. No entanto, é possível personalizar as colunas de acordo com as preferências da equipe. O Trello utiliza a tecnologia de arrastar e soltar (Drag and Drop), permitindo que as tarefas sejam movidas entre as colunas com facilidade. Além disso, é possível atribuir cores aos membros da equipe e às suas tarefas.
+
+Embora não seja possível subdividir as fases de desenvolvimento em subfases, é possível adicionar mais colunas e organizá-las em sequência. O Trello é amplamente utilizado atualmente e é uma das ferramentas mais conhecidas no gerenciamento de projetos. Ele está disponível em uma versão gratuita e possui aplicativos para sistemas móveis, como Android e iOS. A Figura 5 ilustra a tela principal do Trello.
+
+\begin{figure}[htb]
+	\caption{\label{fig:Fig_5}Exemplo da interface do Trello.}
+	\begin{center}
+		\includegraphics{figuras/Imagem5.png}
+	\end{center}
+	\fonte{http://www.trello.com}
+\end{figure}
+
+\subsection{Marqueed}
+
+O Marqueed é uma ferramenta online que proporciona uma interação ágil e dinâmica entre a equipe de trabalho de um projeto e o cliente. Sua funcionalidade principal é permitir o upload de imagens de possíveis layouts e a criação de grupos de trabalho, envolvendo colaboradores e clientes. Através dessa ferramenta, é possível desenhar e escrever sobre a imagem, registrando todas as alterações solicitadas e discutidas.
+
+Dentro do contexto dos Métodos Ágeis, manter o cliente ativo no processo de desenvolvimento do layout é essencial, e o Marqueed facilita essa interação. A ferramenta mantém todos os envolvidos informados por meio de mensagens enviadas sempre que houver alguma nova interação com o projeto. Além disso, o Marqueed permite atribuir diferentes níveis de acesso aos participantes, desde permissão apenas para visualização até a possibilidade de editar e inserir novas imagens. A Figura 6 apresenta a interface do Marqueed:
+
+\begin{figure}[htb]
+	\caption{\label{fig:Fig_6}Exemplo da interface do Marqueed.}
+	\begin{center}
+		\includegraphics{figuras/Imagem6.png}
+	\end{center}
+	\fonte{http://www.marqueed.com}
+\end{figure}
+
+\subsection{Asana}
+O Asana é uma ferramenta colaborativa de gerenciamento de tarefas e projetos. Pode ser utilizado por grupos de trabalho, empresas ou até mesmo por indivíduos. Sua principal função é facilitar a colaboração entre os membros da equipe, permitindo uma interação mais fácil e eficiente.
+
+Com recursos como alertas de interação por e-mail, o Asana busca unificar todas as informações relevantes de um projeto ou tarefa em uma única página. Isso ajuda a manter todos os envolvidos atualizados e alinhados.
+
+O Asana está disponível para acesso via navegadores, e também oferece aplicativos para tablets e smartphones nas plataformas Android e iOS. Isso possibilita o uso produtivo da ferramenta mesmo em situações em que a equipe esteja em atendimentos externos, fora do ambiente de trabalho. A Figura 7 mostra dois ambientes em que o Asana pode ser acessado: desktop e mobile.
+
+\begin{figure}[htb]
+	\caption{\label{fig:Fig_7}Exemplo da interface do Asana.}
+	\begin{center}
+		\includegraphics{figuras/Imagem7.png}
+	\end{center}
+	\fonte{http://www.asana.com}
+\end{figure}
+
+\subsection{Basecamp}
+
+O Basecamp é uma plataforma web lançada em 2004 que pode ser utilizada para o gerenciamento de projetos em diversas áreas. Sua interface possui um layout simples e de fácil utilização, tornando a experiência do usuário mais intuitiva.
+
+Entre as funcionalidades oferecidas pelo Basecamp, destacam-se o compartilhamento de arquivos, a capacidade de armazenar e organizar arquivos e pastas, e a lista de tarefas em formato de planilha, que podem ser visualizadas, indicadas e delegadas aos responsáveis.
+
+Assim como o Asana, o Basecamp integra metas, tarefas, mensagens, arquivos e dados, visando potencializar a comunicação e colaboração da equipe. O uso do Gráfico de Gantt é uma das formas de visualização das informações no Basecamp, como pode ser observado na Figura 8.
+
+\begin{figure}[htb]
+	\caption{\label{fig:Fig_8}Exemplo da interface do Basecamp.}
+	\begin{center}
+		\includegraphics{figuras/Imagem8.png}
+	\end{center}
+	\fonte{http://www.basecamp.com}
+\end{figure}
