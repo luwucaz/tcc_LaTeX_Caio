@@ -2,9 +2,6 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex
 
 ### LaTeX ###
-
-main.pdf
-
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
