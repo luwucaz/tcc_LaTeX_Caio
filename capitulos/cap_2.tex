@@ -173,3 +173,117 @@ Highsmith, um dos metodologistas envolvidos na criação do Manifesto Ágil, des
 \subsection{Metodologia Feature Driven Development (FDD)}
 O Feature Driven Development (FDD) é um método ágil de gestão e desenvolvimento de software que combina as melhores práticas da gestão ágil de projetos com uma abordagem completa de engenharia de software orientada a objetos. Focado em atender às necessidades dos clientes, gestores e desenvolvedores, o FDD teve origem em um projeto liderado inicialmente por Jeff De Luca, que posteriormente contou com a colaboração de Peter Coad. A união dos conhecimentos de De Luca em metodologias lineares e frameworks leves com a experiência de Coad em modelos orientados a objetos resultou na criação do Feature Driven Development, uma nova metodologia ágil (HEPTAGON).
 O FDD foi criado em 1997 como resultado de uma experiência de análise, modelagem orientada a objetos e gestão de projetos (COAD, 1999). A metodologia tem como lema "Resultados frequentes, tangíveis e funcionais". Segundo Highsmith (2002), o FDD possui algumas características distintas, tais como:
+
+\begin{enumerate}
+	\item Entrega de resultados úteis a cada duas semanas ou menos;
+	\item Divisão em blocos pequenos de funcionalidades de alto valor para o cliente, chamados de features;
+	\item Planejamento detalhado;
+	\item Rastreabilidade e relatórios precisos;
+	\item Monitoramento detalhado do projeto, com resumos de alto nível para clientes e gestores, focados em termos de negócio;
+	\item Fornece uma forma de avaliar, no início do projeto, a solidez do plano e das estimativas.
+\end{enumerate}
+
+De acordo com Coad (1999), o FDD considera as características como blocos de funcionalidade valorizados pelo cliente que podem ser implementados em duas semanas ou menos. Conforme descrito por Pressman (2000), essa abordagem traz alguns benefícios:
+
+\begin{itemize}
+	\item As características são consideradas pequenos blocos de funcionalidade que podem ser entregues, permitindo que os usuários as descrevam de forma mais fácil, compreendam suas inter-relações e as revisem quanto a ambiguidades, erros ou omissões.
+	\item As características podem ser organizadas em uma hierarquia relacionada ao negócio.
+	\item O desenvolvimento ocorre em incrementos de software passíveis de entrega, com a equipe desenvolvendo características operacionais a cada duas semanas. Como as características são pequenas, suas representações no projeto e no código são mais fáceis de serem inspecionadas de maneira eficaz.
+	\item O planejamento, o cronograma e o monitoramento do projeto são orientados pela hierarquia de características, em vez de serem baseados em um conjunto arbitrário de tarefas de engenharia de software.
+
+\end{itemize}
+
+\subsection{Metodologia Dynamic Systems Development Method (DSDM)}
+O Dynamic Systems Development Method (DSDM) surgiu como uma evolução do Rapid Application Development (RAD) no Reino Unido, na década de 1990. Ele é um método ágil que oferece uma estrutura para construir e manter sistemas que atendam às restrições de prazos apertados, por meio do uso de prototipagem incremental em um ambiente de projeto controlado.
+
+O DSDM é chamado de "dinâmico" porque desenvolve sistemas de forma iterativa e utiliza a prototipagem incremental, que é um método de desenvolvimento rápido de aplicações. Esse enfoque permite uma entrega rápida e contínua de funcionalidades, com a capacidade de realizar ajustes e melhorias ao longo do processo.
+
+A busca por prazos mais curtos e alta qualidade no mundo moderno tem gerado pressão no desenvolvimento de sistemas, levando à necessidade de adotar processos ágeis que permitam entregar software final em menor tempo. De acordo com Craddock (2006), o DSDM favorece a filosofia de que nada é perfeitamente construído em um primeiro momento, encarando o desenvolvimento de software como um esforço exploratório.
+
+O DSDM segue uma abordagem baseada em uma versão modificada do princípio de Pareto, onde 80\% de uma aplicação pode ser entregue em 20\% do tempo que seria necessário para entregar a aplicação completa. Essa filosofia é mencionada por Pressman (2006) e permite a entrega rápida e incremental de funcionalidades.
+
+Conforme Abrahamsson (2002), a metodologia é apoiada pelo DSDM Consortium, uma organização internacional composta por empresas que promovem e defendem esse método. O consórcio definiu um modelo ágil de processo, conhecido como ciclo de vida do DSDM, que orienta o desenvolvimento de projetos utilizando essa abordagem ágil.
+
+O ciclo de vida do DSDM encontra-se dividido em três fazes, que normalmente são chamados de ciclos iterativos:
+
+\begin{enumerate}
+	\item Pré-Projeto: Na fase inicial do projeto, é necessário avaliar se a metodologia DSDM é adequada para o desenvolvimento do projeto em questão. Em seguida, é importante verificar se o plano de financiamento é suficiente para sustentar o projeto até a sua conclusão.
+	\item Projeto: Para concluir esta fase, a equipe de desenvolvimento trabalha de forma organizada para realizar as cinco atividades essenciais, conforme descrito por Pressman (2000):
+	      \begin{alineas}
+		      \item Estudo de viabilidade: Estabelece os requisitos básicos e restrições do negócio relacionados ao projeto.
+		      \item Estudo de negócio: Define os requisitos funcionais e de informação que permitirão que a aplicação forneça valor de negócio.
+		      \item Iteração do modelo funcional: Produz um conjunto de protótipos incrementais que demonstram a funcionalidade ao cliente.
+		      \item Iteração de projeto e construção: Revisa os protótipos construídos na iteração do modelo funcional, garantindo que cada um deles tenha passado por engenharia para fornecer valor de negócio operacional aos usuários finais.
+		      \item Implementação: Coloca o último incremento de software no ambiente operacional.
+	      \end{alineas}
+	\item Pós-Projeto: Na última fase, é importante garantir que o sistema funcione corretamente. Isso é alcançado por meio da manutenção e melhorias, seguindo os princípios do DSDM.
+\end{enumerate}
+
+Um projeto realizado em DSDM deve aderir aos nove princípios dessa metodologia:
+
+\begin{enumerate}
+	\item Envolvimento ativo do usuário: A participação dos usuários é crucial para o sucesso do projeto.
+	\item Empoderamento das pessoas com autoridade para tomar decisões: As pessoas responsáveis pelo projeto devem ter a autoridade necessária para tomar decisões oportunas.
+	\item Foco na entrega frequente de produtos: O projeto deve se concentrar em entregar valor de forma contínua e iterativa.
+	\item Alinhamento com o objetivo do negócio: As entregas devem atender aos objetivos e necessidades do negócio para serem aceitas.
+	\item Desenvolvimento iterativo e incremental: O desenvolvimento deve ser realizado em ciclos curtos e iterativos para refinar e convergir com precisão a solução do negócio.
+	\item Capacidade de reversão de mudanças: Todas as mudanças feitas durante o desenvolvimento devem ser reversíveis, permitindo a adaptação conforme necessário.
+	\item Alinhamento de requisitos em um nível mais alto: Os requisitos são definidos em um nível mais alto, permitindo flexibilidade e adaptação durante o desenvolvimento.
+	\item Teste integrado ao longo do ciclo de vida: A atividade de teste é realizada de forma contínua e integrada durante todo o ciclo de vida do projeto.
+	\item Colaboração e cooperação entre as partes interessadas: Uma abordagem colaborativa e cooperativa entre todos os envolvidos no projeto é essencial para alcançar os melhores resultados.
+
+\end{enumerate}
+
+\subsection{Metodologia Crystal}
+O método Crystal, desenvolvido por Alistair Cockburn, é uma abordagem ágil que se destaca por ser uma família de metodologias, em contraste com outros métodos ágeis como XP e FDD. O termo "Crystal" passou a ser amplamente conhecido em 1997, antes do Manifesto Ágil.
+
+De acordo com Cockburn (2004), o Crystal é um processo flexível e adaptável, projetado para se adequar às características específicas de cada projeto. Pressman (2006) também descreve o Crystal como uma família de métodos ágeis que pode ser adotada para atender às necessidades de diferentes projetos e equipes, variando de grupos de 6 a 80 membros.
+
+Uma das características distintivas do Crystal é a formação dos membros da equipe, conhecidos como "membros da família Crystal". Esses membros são agrupados por cores, como branco, amarelo, laranja e vermelho, indicando o "peso" ou nível de responsabilidade de cada um.
+
+Conforme mencionado por Cockburn (2004), os diferentes membros da família Crystal podem ser adaptados de acordo com as circunstâncias variáveis de cada projeto. A escala de cores utilizada no Crystal reflete o grau de "peso" ou robustez da metodologia adotada.
+
+Em geral, quanto mais escura for a cor, mais "pesada" é a metodologia Crystal utilizada. Isso significa que projetos com um grande número de membros, como mais de cem, exigem abordagens mais estruturadas e processos mais detalhados do que projetos menores com apenas alguns membros. Portanto, a escolha da cor e do nível de "peso" da metodologia Crystal é ajustada para atender às necessidades e características específicas de cada projeto.
+
+A família Crystal possui dois valores fundamentais que são seguidos por todas as suas metodologias:
+
+\begin{enumerate}[label=\Roman*.]
+	\item Foco na comunicação interpessoal.
+	\item Alta tolerância.
+\end{enumerate}
+
+Penteado (2006) estabeleceu duas regras comumente encontradas dentro da família Crystal:
+
+\begin{enumerate}[label=\Roman*.]
+	\item Desenvolvimento incremental: O projeto deve adotar uma abordagem incremental, dividindo o trabalho em incrementos de quatro meses ou menos, com uma preferência por incrementos de um a três meses.
+	\item Oficinas de reflexão: A equipe deve realizar oficinas de reflexão antes e depois de cada incremento.
+\end{enumerate}
+
+\subsection{Metodologia Kanban}
+
+Traduzido do livro “Kanban em 10 passos” por Boeg(2010), o Kanban, conhecido como o "sistema Kanban para desenvolvimento de software", é uma abordagem que implementa diretamente os princípios de Desenvolvimento Lean de Produtos, focando no fluxo e no contexto do desenvolvimento de software. Ele oferece uma abordagem menos prescritiva em comparação com os métodos ágeis tradicionais, como Agile, Scrum e XP, e tem se tornado uma extensão popular desses métodos.
+
+A palavra "Kanban" tem origem no japonês e significa "Cartão Visual". O termo também é utilizado para descrever um sistema utilizado há décadas pela Toyota para controlar e equilibrar visualmente a linha de produção. Assim, o termo se tornou praticamente sinônimo da implementação dos princípios Lean. Embora o conceito de sistemas Kanban seja relativamente novo na área de Tecnologia da Informação, eles são utilizados há mais de 50 anos no sistema de produção Lean da Toyota.
+
+David J. Anderson foi um dos pioneiros no uso do Kanban em software. Em colaboração com Don Reinerstsen, ele tem se empenhado em expandir o conhecimento do Lean e o uso do Kanban para visualizar e otimizar o fluxo de trabalho no desenvolvimento de software, abrangendo áreas de manutenção e operações.
+
+Diversas abordagens podem ser adotadas para o Kanban, porém a maioria dos especialistas concorda que ele é um método de gestão de mudanças que enfatiza os seguintes princípios:
+
+\begin{enumerate}
+	\item Visualizar o trabalho em andamento;
+	\item Visualizar cada etapa da cadeia de valor, desde o conceito geral até o lançamento de software;
+	\item Limitar o Trabalho em Progresso (WIP - Work in Progress), estabelecendo restrições para a quantidade total de trabalho permitido em cada estágio;
+	\item Tornar explícitas as políticas que estão sendo seguidas;
+	\item Medir e gerenciar o fluxo de trabalho, possibilitando tomar decisões embasadas e visualizar as consequências dessas decisões;
+	\item Identificar oportunidades de melhoria, fomentando uma cultura de Kaizen em que a melhoria contínua é responsabilidade de todos.
+\end{enumerate}
+
+Tudo isso é realizado com a filosofia subjacente de:
+
+\begin{itemize}
+	\item Começar com o que está sendo feito atualmente;
+	\item Concordar em buscar mudanças incrementais e evolucionárias;
+	\item Respeitar o processo atual, incluindo seus papéis, responsabilidades e cargos.
+\end{itemize}
+
+Quem está familiarizado com o Lean reconhecerá muitos desses princípios como a base de um sistema Lean "puxado" (pull) e para uma cultura de melhoria contínua (Kaizen). O Kanban, em primeiro lugar, atua como um catalisador para introduzir ideias Lean na entrega de sistemas de software. Essa perspectiva também é compartilhada por David Anderson em seu livro:
